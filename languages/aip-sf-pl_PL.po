@@ -1,0 +1,468 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Amnesty International Petitions Salesforce Adapter\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/petitions-"
+"salesforce-adapter\n"
+"POT-Creation-Date: 2024-02-13T14:19:48+00:00\n"
+"PO-Revision-Date: 2020-02-20 14:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: amnesty-petitions-salesforce-adapter.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: private\n"
+
+#. Plugin Name of the plugin
+msgid "Humanity Petitions Salesforce Adapter"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/amnestywebsite/humanity-petitions-salesforce-adapter"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add Salesforce data synchronisation to the Humanity Petitions plugin"
+msgstr ""
+
+#. Author of the plugin
+msgid "Amnesty International"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.amnesty.org"
+msgstr "https://www.amnesty.org"
+
+#. translators: %1$s: the name of this plugin, %2$s: list of missing plugins
+#: amnesty-petitions-salesforce-adapter.php:135
+msgid "%1$s requires these plugins to be active: %2$s"
+msgstr ""
+
+#: amnesty-petitions-salesforce-adapter.php:203 messages/default-info.php:3
+msgid "Petitions"
+msgstr "petycje"
+
+#: amnesty-petitions-salesforce-adapter.php:234
+msgid "Salesforce"
+msgstr "Salesforce"
+
+#: includes/class-page-settings.php:72
+msgid "Customise"
+msgstr "Dostosowywanie"
+
+#: includes/class-page-settings.php:73
+msgid "Customise how data is stored in Salesforce."
+msgstr "Dostosuj sposób przechowywania danych w Salesforce."
+
+#: includes/class-page-settings.php:76
+msgid "No"
+msgstr "Nie"
+
+#: includes/class-page-settings.php:77
+msgid "Yes"
+msgstr "Tak"
+
+#: includes/class-salesforce-adapter.php:596
+msgid "An unknown error occurred."
+msgstr ""
+
+#: includes/settings/class-petition-signature-count.php:29
+msgid "Signature Count"
+msgstr "Liczba sygnatur docelowych"
+
+#: includes/settings/class-petition-signature-count.php:30
+msgid "Signature Count Settings"
+msgstr "Ustawienia liczby podpisów"
+
+#: includes/settings/class-petition-signature-count.php:53
+msgid "Count method"
+msgstr "Metoda zliczania"
+
+#: includes/settings/class-petition-signature-count.php:54
+msgid "How would a count of signatures for a petition be retrieved."
+msgstr "W jaki sposób liczba podpisów pod petycją zostałaby odzyskana."
+
+#: includes/settings/class-petition-signature-count.php:57
+#: messages/sigcount.php:6 messages/sigcount.php:17
+msgid "Field on Object"
+msgstr "Pole na obiekcie"
+
+#: includes/settings/class-petition-signature-count.php:58
+#: includes/settings/class-petition-signature-count.php:107
+#: messages/sigcount.php:10 messages/sigcount.php:20
+msgid "SOQL Query"
+msgstr "Kwerenda SOQL"
+
+#: includes/settings/class-petition-signature-count.php:69
+#: includes/settings/class-petition-sobject.php:53
+#: includes/settings/class-signatory-sobject.php:53
+#: includes/settings/class-signature-sobject.php:53
+msgid "Salesforce Object type"
+msgstr "Salesforce"
+
+#: includes/settings/class-petition-signature-count.php:70
+msgid "Select which Salesforce Object the field is found on"
+msgstr "Wybierz obiekt Salesforce, w którym znajduje się pole"
+
+#: includes/settings/class-petition-signature-count.php:90
+msgid "Salesforce Object field"
+msgstr "Odpowiedź Salesforce nieprawidłowa"
+
+#: includes/settings/class-petition-signature-count.php:91
+msgid ""
+"Select which Salesforce field the signature count should be retrieved from"
+msgstr "Wybierz pole Salesforce, z którego należy pobrać liczbę podpisów"
+
+#: includes/settings/class-petition-signature-count.php:108
+msgid ""
+"Enter the Salesforce SOQL Query necessary to retrieve the count<br>e.g. "
+"<code>SELECT EntityId FROM TopicAssignment WHERE TopicId='{petition}' AND "
+"EntityType='Contact'</code>"
+msgstr ""
+"Wprowadź kwerendę Salesforce SOQL niezbędną do pobrania liczby<br>Przykład."
+"<code>SELECT EntityId FROM TopicAssignment WHERE TopicId='{petition}' AND "
+"EntityType='Contact'</code>"
+
+#: includes/settings/class-petition-signature-count.php:121
+msgid "SOQL Query response field"
+msgstr "Odpowiedź Salesforce nieprawidłowa"
+
+#: includes/settings/class-petition-signature-count.php:122
+msgid ""
+"Enter the Salesforce SOQL query response field from which to retrieve the "
+"count, e.g. <code>totalSize</code>"
+msgstr ""
+"Wprowadź pole odpowiedzi zapytania Salesforce SOQL, z którego ma zostać "
+"pobrana liczba, np.<code>totalSize</code>"
+
+#: includes/settings/class-petition-sobject.php:29
+msgid "Petition"
+msgstr "Petycji"
+
+#: includes/settings/class-petition-sobject.php:30
+msgid "Petition Settings"
+msgstr "Ustawienia petycji"
+
+#: includes/settings/class-petition-sobject.php:70
+msgid "Title field"
+msgstr "Pole tytuł"
+
+#: includes/settings/class-petition-sobject.php:84
+msgid "Date commenced field"
+msgstr "Pole Data rozpoczęcia"
+
+#: includes/settings/class-petition-sobject.php:98
+#: includes/settings/class-signatory-sobject.php:186
+#: includes/settings/class-signature-sobject.php:127
+msgid "Type field"
+msgstr "Pole wpisu"
+
+#: includes/settings/class-petition-sobject.php:115
+#: includes/settings/class-signatory-sobject.php:203
+#: includes/settings/class-signatory-sobject.php:217
+#: includes/settings/class-signature-sobject.php:144
+#: includes/settings/class-signature-sobject.php:158
+msgid "Type field value"
+msgstr "Wpisz wartość pola"
+
+#: includes/settings/class-petition-sobject.php:131
+#: includes/settings/class-signatory-sobject.php:244
+#: includes/settings/class-signature-sobject.php:185
+msgid "Status field"
+msgstr "Stan, pole"
+
+#: includes/settings/class-petition-sobject.php:148
+#: includes/settings/class-signatory-sobject.php:261
+#: includes/settings/class-signatory-sobject.php:275
+#: includes/settings/class-signature-sobject.php:202
+#: includes/settings/class-signature-sobject.php:216
+msgid "Status field value"
+msgstr "Wartość pola stan"
+
+#: includes/settings/class-petition-sobject.php:164
+msgid "Is Active checkbox field"
+msgstr ""
+
+#: includes/settings/class-signatory-sobject.php:29
+msgid "Signatory"
+msgstr "Sygnatariusz"
+
+#: includes/settings/class-signatory-sobject.php:30
+msgid "Signatory Settings"
+msgstr "Ustawienia sygnatariusza"
+
+#: includes/settings/class-signatory-sobject.php:86
+msgid "First Name field"
+msgstr "Pole Imię"
+
+#: includes/settings/class-signatory-sobject.php:100
+msgid "Last Name field"
+msgstr "Pole Nazwisko"
+
+#: includes/settings/class-signatory-sobject.php:114
+msgid "Email field"
+msgstr "Pole wiadomości e-mail"
+
+#: includes/settings/class-signatory-sobject.php:128
+msgid "Telephone Number field"
+msgstr "Pole Numer telefonu"
+
+#: includes/settings/class-signatory-sobject.php:142
+msgid "Newsletter preferences field"
+msgstr "Pole preferencji biuletynu"
+
+#: includes/settings/class-signatory-sobject.php:159
+msgid "Newsletter preferences value"
+msgstr "Wartość preferencji biuletynu"
+
+#: includes/settings/class-signature-sobject.php:29
+msgid "Signature"
+msgstr "Podpis"
+
+#: includes/settings/class-signature-sobject.php:30
+msgid "Signature Settings"
+msgstr "Ustawienia podpisu"
+
+#: includes/settings/class-signature-sobject.php:70
+msgid "Petition ID field"
+msgstr "Pole identyfikatora petycji"
+
+#: includes/settings/class-signature-sobject.php:84
+msgid "Signatory ID field"
+msgstr "Pole identyfikatora podpisu"
+
+#: includes/settings/class-signature-sobject.php:98
+msgid "Signature timestamp field"
+msgstr ""
+
+#: messages/default-info.php:1
+msgid "Default Configuration"
+msgstr "Domyślna Konfiguracja"
+
+#: messages/default-info.php:5
+msgid ""
+"Petitions are stored as \"Campaign\" Objects. WordPress post fields stored "
+"are:"
+msgstr ""
+"Petycje są przechowywane jako obiekty \"Kampania\". Zapisane pola postów "
+"WordPress to:"
+
+#: messages/default-info.php:7
+msgid "Petition Title"
+msgstr "Tytuł petycji"
+
+#: messages/default-info.php:7
+msgid "Campaign Name"
+msgstr "Nazwa kampanii"
+
+#: messages/default-info.php:8
+msgid "Petition Published Date"
+msgstr "Petycja Opublikowano datę"
+
+#: messages/default-info.php:8
+msgid "Campaign Start Date"
+msgstr "Data rozpoczęcia kampanii"
+
+#: messages/default-info.php:10
+msgid "Additional fields stored are:"
+msgstr "Dodatkowe przechowywane pola to:"
+
+#: messages/default-info.php:12
+msgid "Campaign Type"
+msgstr "Typ kampanii"
+
+#: messages/default-info.php:12
+msgid "Direct Mail"
+msgstr "Direct mail"
+
+#: messages/default-info.php:13
+msgid "Campaign Status"
+msgstr "Stan kampanii"
+
+#: messages/default-info.php:13
+msgid "In Progress"
+msgstr "W trakcie"
+
+#: messages/default-info.php:16
+msgid "Signatories (Users)"
+msgstr "Sygnatariusze (Użytkownicy)"
+
+#: messages/default-info.php:18
+msgid ""
+"Users who sign petitions are stored as \"Contact\" Objects. Form fields "
+"stored are:"
+msgstr ""
+"Użytkownicy, którzy podpisują petycje, są przechowywane jako obiekty "
+"\"Kontakt\". Przechowywane pola formularza to:"
+
+#: messages/default-info.php:20
+msgid "First Name"
+msgstr "Imię"
+
+#: messages/default-info.php:21
+msgid "Last Name"
+msgstr "Nazwisko"
+
+#: messages/default-info.php:22
+msgid "Email Address"
+msgstr "Adres e-mail"
+
+#: messages/default-info.php:23
+msgid "Telephone (optionally)"
+msgstr "Telefon (opcjonalnie)"
+
+#: messages/default-info.php:24
+msgid "Newsletter Opt-in/out"
+msgstr "Newsletter Opt-in/out"
+
+#: messages/default-info.php:27
+msgid "Petition Signatures"
+msgstr "Podpisy petycji"
+
+#: messages/default-info.php:29
+msgid ""
+"The relationship between a Petition and a Signatory is a \"Campaign Member\" "
+"Object"
+msgstr ""
+"Relacja między petycją a sygnatariuszem jest obiektem \"Uczestnikiem "
+"kampanii\""
+
+#: messages/default-info.php:30
+msgid ""
+"A Campaign Member is not generally something that is directly visible within "
+"Salesforce, but it allows one to view which Contacts have signed which "
+"Campaigns"
+msgstr ""
+"Uczestnik kampanii nie jest na ogół czymś, co jest bezpośrednio widoczne w "
+"Salesforce, ale pozwala zobaczyć, które kontakty podpisały, które kampanie"
+
+#: messages/not-authorised.php:1
+msgid ""
+"Please complete the Salesforce configuration prior to modifying these "
+"settings."
+msgstr ""
+"Przed modyfikacją tych ustawień należy ukończyć konfigurację Salesforce."
+
+#. translators: %1$s: line break, %2$s: documentation link
+#: messages/oauth.php:12
+msgid ""
+"You need to create a Connected App to generate your Client ID/Secret keys; "
+"see %2$s for further details.%1$s"
+msgstr ""
+"Musisz utworzyć połączoną aplikację, aby wygenerować klucze identyfikatora "
+"klienta/klucze tajne; zobacz %2$s, aby uzyskać więcej szczegółów.%1$s"
+
+#. translators: %1$s: line break, %2$s: required permissions, %3$s: callback URL
+#: messages/oauth.php:27
+msgid ""
+"Please ensure that your Connected App has the following oAuth permissions: "
+"%2$s.%1$sThe Callback URL must be set to this: %3$s."
+msgstr ""
+"Upewnij się, że połączona aplikacja ma następujące uprawnienia oAuth: %2$s."
+"%1$sDodatkowo adres URL wywołania połączenia musi być ustawiony na "
+"następujące: %3$s"
+
+#. translators: %1$s: line break, %2$s: the setting name, %3$s: the Salesforce object name, %4$s: Salesforce helpdesk link
+#: messages/oauth.php:43
+msgid ""
+"When using the default configuration, please ensure that you have permission "
+"to modify the %2$s setting on the %3$s object via the API; see %4$s for more "
+"information.%1$sIf customising the configuration, please ensure that you are "
+"able to modify all fields you select."
+msgstr ""
+"Korzystając z konfiguracji domyślnej, upewnij się, że masz uprawnienia do "
+"modyfikowania ustawienia %2$s w obiekcie %3$s za pośrednictwem interfejsu "
+"API; zobacz %4$s, aby uzyskać więcej informacji.%1$sJeśli dostosować "
+"konfigurację, upewnij się, że możesz zmodyfikować wszystkie wybrane pola."
+
+#: messages/petition.php:2
+msgid "Configure the means of storing petition data"
+msgstr "Skonfiguruj sposoby przechowywania danych petycji"
+
+#: messages/petition.php:4 messages/signature.php:7
+msgid "Type/Status fields"
+msgstr "Pola Typ/Stan"
+
+#: messages/petition.php:5 messages/signature.php:8
+msgid ""
+"If the Salesforce Object supports a \"Type\" and/or a \"Status\" field, an "
+"additional setting will appear in the relevant place upon your selection "
+"which will allow you to choose/enter the appropriate value for the field"
+msgstr ""
+"Jeśli obiekt Salesforce object obsługuje pole \"Typ\" i/lub \"Status\", w "
+"odpowiednim miejscu po wybraniu pojawi się dodatkowe ustawienie, które "
+"umożliwi wybranie/wprowadzenie odpowiedniej wartości dla tego pola."
+
+#: messages/sigcount.php:2
+msgid ""
+"Configure the means for retrieving the count of signatories on a petition"
+msgstr "Skonfiguruj środki do pobierania liczby sygnatariuszy petycji"
+
+#: messages/sigcount.php:3
+msgid "Options"
+msgstr "Opcje"
+
+#: messages/sigcount.php:7
+msgid "Retrieve the count from an existing field on a Salesforce Object"
+msgstr "Pobieranie liczby z istniejącego pola w obiekcie Salesforce"
+
+#: messages/sigcount.php:11
+msgid ""
+"Perform a query on the Salesforce API. This is useful when the petitions are "
+"not stored as Objects in Salesforce"
+msgstr ""
+"Wykonaj kwerendę na interfejsie API Salesforce. Jest to przydatne, gdy "
+"petycje nie są przechowywane jako obiekty w Salesforce"
+
+#: messages/sigcount.php:18
+msgid ""
+"By default, petitions are stored as \"Campaign\" objects in Salesforce. When "
+"signatories are added to the Campaign, the \"Contacts in Campaign\" property "
+"on the object stores how many signatories have signed the petition."
+msgstr ""
+
+#. translators: %s: code block containing a dynamic variable definition
+#: messages/sigcount.php:27
+msgid ""
+"When configured in certain ways, there is no direct means of retrieving the "
+"signatory count from Salesforce. Under such circumstances, a SOQL query can "
+"be used to generate a count. For example: if petitions are stored as a "
+"\"Topic\", and signatories are assigned a Topic for each petition they sign, "
+"we can query how many signatories are assigned to a Topic using SOQL. The "
+"dynamic variable %s can be used to define the insertion point for the "
+"petition's Salesforce ID"
+msgstr ""
+
+#: messages/signatory.php:2
+msgid "Configure the means of storing user data"
+msgstr "Konfigurowanie środków przechowywania danych użytkownika"
+
+#: messages/signature.php:2
+msgid "Configure the means of storing petition signature data"
+msgstr "Konfigurowanie sposobów przechowywania danych podpisu petycji"
+
+#: messages/signature.php:4
+msgid "This is the relationship between a petition and a signatory"
+msgstr "Jest to związek między petycją a sygnatariuszem"
+
+#: views/notice.php:3
+msgid "Click this link to complete the Salesforce Connected App authorisation"
+msgstr ""
+"Kliknij ten link, aby ukończyć autoryzację aplikacji Salesforce Connected App"
+
+#: views/notice.php:4
+msgid "Authorise"
+msgstr "Zezwolić"

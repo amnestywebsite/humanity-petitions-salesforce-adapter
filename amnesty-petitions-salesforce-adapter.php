@@ -4,7 +4,7 @@
  * Plugin Name:       Humanity Petitions Salesforce Adapter
  * Plugin URI:        https://github.com/amnestywebsite/humanity-petitions-salesforce-adapter
  * Description:       Add Salesforce data synchronisation to the Humanity Petitions plugin
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Amnesty International
  * Author URI:        https://www.amnesty.org
  * License:           GPL-2.0-or-later
